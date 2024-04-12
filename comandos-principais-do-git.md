@@ -27,7 +27,7 @@ git status
 Fazer um commit com as alterações:
 git commit -m "Mensagem do commit"
 
-## Ramificações
+## Ramificações (branch)
 
 Criar uma nova ramificação:
 git branch <nome_da_ramificação>
@@ -35,12 +35,12 @@ git branch <nome_da_ramificação>
 Mudar para uma ramificação específica:
 git checkout <nome_da_ramificação>
 
-## Fusão
+## Fusão (merge)
 
 Fazer a fusão de uma ramificação na ramificação atual:
 git merge <nome_da_ramificação>
 
-## Trabalhando com Repositórios Remotos
+## Trabalhando com Repositórios Remotos (envio para o Github)
 
 Adicionar um repositório remoto:
 git remote add <nome_remoto> <URL_do_repositório>
