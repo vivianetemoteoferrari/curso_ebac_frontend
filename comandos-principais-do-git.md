@@ -51,6 +51,9 @@ git push <nome_remoto> <ramificação_local>
 Obter alterações de um repositório remoto:
 git pull <nome_remoto> <ramificação_remota>
 
+Obter todo conteúdo do repositório remoto:
+git fetch -p
+
 ## Investigação e Histórico
 
 Exibir o histórico de commits:
@@ -77,3 +80,8 @@ git clone <URL_do_repositório>
 
 Criar e mudar para uma nova ramificação em um único comando:
 git checkout -b <nome_da_ramificação>
+
+Navegar entre branchs:
+git checkout <nome_da_ramificação>
+
+
